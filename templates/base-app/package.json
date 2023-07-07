@@ -1,0 +1,6 @@
+{
+  "name": "__packageName__",
+  "version": "1.0.0",
+  "description": "__packageName__",
+  "main": "src/index.ts"
+}

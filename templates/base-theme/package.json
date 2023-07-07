@@ -1,0 +1,10 @@
+{
+  "name": "__packageName__",
+  "version": "1.0.0",
+  "main": "src/index.tsx",
+  "license": "MIT",
+  "private": false,
+  "metafox": {
+    "theme": "__themeId__"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "metafox-cli",
+  "version": "1.0.1",
+  "main": "lib/bin.js",
+  "author": {
+    "email": "dev@phpfox.com",
+    "name": "phpFox"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "templates"
+  ],
+  "private": false,
+  "license": "MIT",
+  "repository": "git@github.com:metafoxapp/metafox-npx-cli.git",
+  "bugs": {
+    "url": "https://github.com/metafoxapp/metafox-npx-cli/issues"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "commander": "^11.0.0",
+    "enquirer": "^2.3.6",
+    "fs-extra": "^11.1.1",
+    "replace": "^1.2.2"
+  },
+  "bin": "bin/index.js",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^20.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "prettier": "3.0.0",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "build": "rm -rf lib/ && tsc",
+    "prepublish": "build"
+  }
+}

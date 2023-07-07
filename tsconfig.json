@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "commonjs",
+    "lib": [
+      "ES2021"
+    ],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "outDir": "lib",
+    "paths": {
+      "metafox-toolkit": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib"
+  ]
+}
