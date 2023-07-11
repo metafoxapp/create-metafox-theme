@@ -1,6 +1,6 @@
 {
   "name": "metafox-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/bin.js",
   "author": {
     "email": "dev@phpfox.com",
@@ -36,6 +36,6 @@
   },
   "scripts": {
     "build": "rm -rf lib/ && tsc",
-    "prepublish": "build"
+    "prepublish": "rm -rf lib/ && tsc"
   }
 }
